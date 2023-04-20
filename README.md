@@ -1,24 +1,37 @@
+Regular Expressions
+===================
 
-20/4: TechEvent: RegularExpressions
-```
-!! On-Site | Hands-On !!
-18h : Food & Drinks
-19h : Start event
+## Resources
 
-Pre-Requisites:
-IDE with good RegEx support (ex: Visual Studio Code)
+Learning:
+- [RegExOne](https://regexone.com)
+- [RexEgg](http://www.rexegg.com)
+- [Regex Info](http://www.regular-expressions.info)
 
-@Mike: Dit is een interessante skill, ook voor testers & analisten!
-```
+Online interpreters:
+- [RegExr](https://regexr.com/)
+- [RegEx101](https://regex101.com/)
+- [debuggex](https://www.debuggex.com/?flavor=javascript)
 
-
-
-Gather the local changes from the itenium/site/_posts too
-
-
-regex session: list all colors echo text in their color:
-echo ${!_omb_prompt_*}
-turn into: PS1+="{_omb_prompt_purple}_omb_prompt_purple\n"
---> actually multiple cursors is easier (& explain in vsc)
+Cheat Cheets:
+- [Cheatography](https://www.cheatography.com/davechild/cheat-sheets/regular-expressions/)
+- [Quickref.me](https://quickref.me/regex.html)
+- [Debuggex](https://www.debuggex.com/cheatsheet/regex/javascript)
+- [Regexlib](http://regexlib.com/CheatSheet.aspx)
 
 
+
+## Multicursor
+
+Regex and multicursors, a match made in heaven.
+
+In **Visual Studio Code**:
+- `CTRL + D`: Select next
+- `CTRL + F2`: Select all
+- `CTRL + U`: Deselect current
+- `CTRL + K, D`: Deselect current & select next
+- `CTRL + ALT + UP/DW`: Insert extra cursor
+- `SHIFT + ALT + i`: Turn selection into cursors
+- `SHIFT + ALT + LEFT/RIGHT`: Shrink/expand selection
+- `CTRL + Click`: Select word / insert cursor
+- `SHIFT + ALT + drag mouse`: Select box
