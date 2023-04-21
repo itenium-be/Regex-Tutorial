@@ -88,6 +88,8 @@ describe('InputValidation & Regexes :: INSZ', () => {
     const birthDateRegex = /\d+/
 
     it('can extract the birth date', () => {
+      // TODO: is this actually achievable with `match`?
+      // TODO: Might need to use replace instead?
       const result = '82081501156'.match(birthDateRegex)!;
       expect(result[0]).toBe('1982-08-15');
     })
